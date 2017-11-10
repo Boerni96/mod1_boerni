@@ -1,0 +1,46 @@
+header {
+	display: flex;
+}
+
+#content {
+	display: flex;
+}
+
+
+	
+#logo {
+	
+	margin-bottom: 40px;
+
+}
+
+.sidebar img	{
+	width: 150px;
+	margin-right: 30px;
+}
+
+#football {
+	margin-right: 30px
+}
+
+#div1 {
+	font-weight: bold;
+}
+
+#div2 {
+	font-weight: bold;
+}
+
+#div3 {
+	font-weight: bold;
+}
+
+nav a {
+    background-color: #24248f;
+    color: 	 #80ff00;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+   
+
+}
