@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: impact;
+}
+
+
+#top {
+    display: flex;
+    flex-direction: column;
+    background: url(../images2/design2_image1.jpg) no-repeat center top;
+    background-size: cover;
+    height: 200px;
+    padding-top: 60px;
+    border-width: 3px 0px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+
+
+}
+
+#headlinebox {
+    margin-top: 300px;
+    background-color: white;
+    font-size: 50pt;
+    color: black;
+    margin: 0;
+    padding: 15px;
+}
+
+
+h1 {
+	font-family: impact;
+    font-size: 70pt;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+#content {
+    display: flex;
+    padding-top: 20px;
+}
+
+#logo {
+	float: left;
+	width: 280px;
+    margin-right: 50px;
+    margin-left: 30px;
+    margin-top: -70px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+#football {
+    margin-right: 30px
+}
+
+#div1 {
+	font-size: 40px;
+
+    font-weight: bold;
+}
+
+#div2 {
+	font-size: 40px;
+    font-weight: bold;
+}
+
+#div3 {
+	font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+article {
+    padding-left: 120px;
+    margin-top: 40px;
+    
+}
+
+
+   
+nav a {
+    background-color: #24248f;
+    color: 	 #80ff00;
+    padding: 25px 40px;
+    text-align: center; 
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 20pt;
+    box-shadow: 3px 3px black;	
+
+  
+}
+
+nav a:hover {
+    color: red !important;
+}
+
+aside nav {
+	
+	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+/* neu:
+<header> display: flex;
+   <content> display: flex; 
+   --> so ist alles richtig ausgerichtet
+nav a hover: link leuchtet auf wenn man 
+mit der Maus brührt;
+
+box-shadow: für schatten
+float: left ;
+background-size: cover (so wird die ganze 
+Breite genutzt)

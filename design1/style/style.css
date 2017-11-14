@@ -1,0 +1,91 @@
+body	{
+	padding: 0;
+	margin: 0;
+}
+
+#top {
+	display: flex;
+	flex-direction: column;
+	background: url(../images/design1_image1.jpg) no-repeat center top;
+	background-size: cover;
+	height: 300px;
+	padding: 60px;
+}
+#headlinebox	{
+	background-color: black;
+	margin: 0;
+	padding: 15px;
+}
+
+
+h1 {
+	font-size: 40px;
+	color: white;
+	margin: 0;
+}
+
+
+h2 {
+	font-size:40px;
+    color: white;
+    text-align: center;
+}
+
+aside nav	{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+#content {
+	display: flex;
+	padding-top: 20px;
+}
+
+#logo {
+	float: right;
+	width: 150px;
+	margin-right: 50px;
+	margin-top: -110px;
+
+
+}
+
+#football {
+	margin-right: 30px
+}
+
+#div1 {
+	font-weight: bold;
+}
+
+#div2 {
+	font-weight: bold;
+}
+
+#div3 {
+	font-weight: bold;
+}
+
+
+
+article {
+	padding-left: 100px;
+	
+}
+nav a {
+    background-color: #24248f;
+    color: 	 #80ff00;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px black;
+   
+
+}
+
+nav a:hover {
+    color: red !important;
+    }

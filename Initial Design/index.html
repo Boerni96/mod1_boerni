@@ -2,23 +2,23 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="design1/style/style1.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
     <title>Northside Youth Soccer League</title>
 </head>
 
 <body>
     <!-- Tag "header" als "Kopf" der website, um Struktur zu erhalten -->
-    
-    	<h1>Northside Youth Soccer League</h1>
-        	<img id="banner" src="design1/images1/design1_image1.jpg">
-		<header>
-        <div id="nav">
-        	<div id="nav wrapper">
-            
+    <header>
+        <a class="sidebar" id="logo" href="index.html">
+		<img src="images/nysl_logo.png">
+	</a>
+        <div id="top">
+            <h1>Northside Youth Soccer League</h1>
+            <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About NYSL</a>
                 <a href="contact.html">Contact</a>
-            </div>
+            </nav>
         </div>
     </header>
     <!-- a class sidebar, um links eine sidebar zu kreieren, logo verlinken, damit es zur Hauptseite führt, wenn man darauf klickt. Die links der anderen HTML Dokumente jeweils einfügen -->
@@ -26,9 +26,10 @@
     	Genau diesselbe Struktur für alle weiteren Seiten, danach individuell anpassen
     	Wichtig: header, aside, main und sidebar.
     	Für Bilder und Style Ordner anlegen, für Übersicht + Struktur -->
-   <div id="content">
+    <div id="content">
         <aside>
-            <a  href="#">
+            <a class="sidebar" id="football" href="#">
+		<img src="images/soccer_image1.jpg">
 	</a>
         </aside>
         <div id="content">
