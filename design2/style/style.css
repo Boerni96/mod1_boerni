@@ -57,6 +57,7 @@ aside nav {
     margin-right: 30px
 }
 
+/* see design 1*/
 #div1 {
     font-weight: bold;
 }
@@ -71,6 +72,7 @@ aside nav {
 
 
 
+/* generic css to the top*/
 article {
     padding-left: 100px;
     margin-top: 40px;
